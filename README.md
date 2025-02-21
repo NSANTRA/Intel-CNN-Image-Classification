@@ -88,8 +88,8 @@ Intel-CNN-Image-Classification/
 | **weighted avg** |    0.89   |  0.89  |   0.89   |   3000  |
 
 #### **🔹 Key Observations:**
-- ✅ High Overall Accuracy: 89% – The model performs well across all classes.
-- ✅ Forest category has the highest accuracy (Precision: 0.96, Recall: 0.99, F1-score: 0.98) – Very few misclassifications.
+- ✅ **High Overall Accuracy:** 89% – The model performs well across all classes.
+- ✅ Forest category has the highest accuracy (**Precision: 0.96**, **Recall: 0.99**, **F1-score: 0.98**) – Very few misclassifications.
 - ✅ Buildings, Sea, and Street categories also perform well (F1-score: ~0.91).
 - ✅ Glacier and Mountain have the lowest scores (F1-score: ~0.82) – These categories are harder to classify correctly.
 
