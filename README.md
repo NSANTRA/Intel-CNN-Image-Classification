@@ -83,16 +83,31 @@ Intel-CNN-Image-Classification/
 | sea          |    0.93   |  0.91  |   0.92   |   510   |
 | street       |    0.89   |  0.93  |   0.91   |   501   |
 |              |           |        |          |         |
+|              |           |        |          |         |
+|              |           |        |          |         |
+|              |           |        |          |         |
+|              |           |        |          |         |
+|              |           |        |          |         |
 | accuracy     |           |        |   0.89   |   3000  |
 | macro avg    |    0.89   |  0.89  |   0.89   |   3000  |
 | weighted avg |    0.89   |  0.89  |   0.89   |   3000  |
 
 ---
 
-
 ###  **📈 Graphs of Training Loss and Accuracy**
 #### **CNN With Transfer Learning**
 ![Confusion Matrix](Results/Confusion%20Matrix%20TL.png)
+
+#### **CNN Without Transfer Learning**
+![Confusion Matrix](Results/Confusion%20Matrix.png)
+
+
+###  **Confusion Matrices**
+#### **CNN With Transfer Learning**
+![Loss and Accuracy Graphs](Results/Plots%20TL.png)
+
+#### **CNN Without Transfer Learning**
+![Loss and Accuracy Graphs](Results/Plots.png)
 
 
 ---
