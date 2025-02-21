@@ -2,11 +2,25 @@
 
 🌍 Deep Learning Model for Classifying Intel Image Dataset
 
-📌 **Project Overview**
+## **📌 Project Overview**  
+This project implements two **Convolutional Neural Networks (CNNs)** for **Intel Image Classification**:  
+1️⃣ **CNN Model (Trained from Scratch)**  
+2️⃣ **CNN Model with Transfer Learning** (using a pre-trained model)
 
-This project implements Convolutional Neural Networks (CNNs) for image classification using the Intel Image Classification Dataset. The model is designed to classify images into six categories:
+The goal is to classify images into six categories:  
+🏢 **Buildings** | 🌲 **Forest** | 🏔 **Glacier** | ⛰ **Mountain** | 🌊 **Sea** | 🛣 **Street**
 
-🏔️ Buildings, 🌳 Forests, ⛰️ Glaciers, 🌊 Mountains, 🏝️ Sea, and 🏜️ Streets.
+---
+
+## **📂 Dataset**  
+The dataset used is the **Intel Image Classification Dataset**, which contains:  
+- **Train Set:** 14,034 images  
+- **Test Set:** 3,000 images  
+- **Prediction Set:** 7,301 images  
+
+📥 **Download Dataset:** [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+
+---
 
 🚀 **Features**
 
@@ -15,18 +29,59 @@ This project implements Convolutional Neural Networks (CNNs) for image classific
 *   📈 **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
 *   🏗️ **Modular Code Structure:** Well-organized for easy modification and experimentation.
 
+---
+
 📂 **Project Structure**
 
-```tree
-Intel-CNN-Image-Classification/
-├── data/                   # Dataset (Train/Test)
-├── Models/                 # Saved Models (.h5 files)
-├── notebooks/              # Jupyter Notebooks for training & evaluation
-├── src/                    # Source Code (training, preprocessing, inference)
-│   ├── train.py            # Model Training Script
-│   ├── predict.py          # Model Prediction Script
-│   └── utils.py            # Helper Functions
-├── requirements.txt        # Required Dependencies
-├── README.md               # Project Documentation
-└── .gitignore              # Git Ignore File
 ```
+Intel-CNN-Image-Classification/
+├── Dataset/                 # Intel Image Dataset
+│   ├── seg_train/           # Training Images
+│   ├── seg_test/            # Testing Images
+│   ├── seg_pred/            # Unlabeled Images
+├── Models/                  # Saved Models (.h5 files)
+│   ├── Model With Transfer Learning.h5
+│   ├── Model Without Transfer Learning.h5
+├── Notebooks/               # Jupyter Notebooks for training & evaluation
+│   ├── Classification With Transfer Learning.ipynb
+│   ├── Classification Without Transfer Learning.ipynb
+├── requirements.txt         # Required Dependencies
+├── README.md                # Project Documentation
+└── .gitignore               # Git Ignore File
+```
+
+---
+
+## **⚙️ Model Architectures**  
+
+### **1️⃣ CNN Model (Trained from Scratch)**  
+- **Architecture:** Conv2D → MaxPooling → Conv2D → MaxPooling → Fully Connected  
+- **Activation Functions:** ReLU & Softmax  
+- **Optimizer:** Adam  
+- **Loss Function:** Categorical Crossentropy  
+
+### **2️⃣ CNN Model with Transfer Learning**  
+- **Pre-trained Model:** ResNet50 (or VGG16, MobileNet, etc.)  
+- **Fine-tuned Layers:** Last few layers trained on the Intel dataset  
+- **Optimizer:** Adam  
+- **Loss Function:** Categorical Crossentropy  
+
+---
+
+## **📊 Results & Comparison**  
+
+| Model                  | Accuracy | Training Time | Overfitting Risk |
+|------------------------|----------|---------------|------------------|
+| CNN (From Scratch)     | XX%      | XX min        | XX%              |
+| Transfer Learning CNN  | XX%      | XX min        | XX%              |
+
+📈 *Graphs of Training vs. Validation Loss and Accuracy included in the results section.*
+
+---
+
+## **🚀 Installation & Usage**  
+
+### **🔧 Requirements**  
+Ensure you have the required dependencies installed:  
+```bash
+pip install -r requirements.txt
