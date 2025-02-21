@@ -5,7 +5,7 @@
 ## **📌 Project Overview**  
 This project implements two **Convolutional Neural Networks (CNNs)** for **Intel Image Classification**:  
 1️⃣ **CNN Model (Trained from Scratch)**  
-2️⃣ **CNN Model with Transfer Learning** (using a pre-trained model)
+2️⃣ **CNN Model with Transfer Learning** (using VGG19 as the pre-trained model)
 
 The goal is to classify images into six categories:  
 🏢 **Buildings** | 🌲 **Forest** | 🏔 **Glacier** | ⛰ **Mountain** | 🌊 **Sea** | 🛣 **Street**
@@ -22,16 +22,17 @@ The dataset used is the **Intel Image Classification Dataset**, which contains:
 
 ---
 
-🚀 **Features**
+## **🚀 Features**
 
-*   📊 **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
-*   🔥 **Transfer Learning:** Uses pre-trained models (e.g., ResNet, VGG16) for improved accuracy.
-*   📈 **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
-*   🏗️ **Modular Code Structure:** Well-organized for easy modification and experimentation.
+- **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
+- **Transfer Learning:** Uses VGG19 as the pre-trained model for improved accuracy.
+- **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
+- **Modular Code Structure:** Well-organized for easy modification and experimentation.
 
 ---
 
-📂 **Project Structure**
+## **📂 Project Structure**
+
 
 ```
 Intel-CNN-Image-Classification/
@@ -55,13 +56,14 @@ Intel-CNN-Image-Classification/
 ## **⚙️ Model Architectures**  
 
 ### **1️⃣ CNN Model (Trained from Scratch)**  
-- **Architecture:** Conv2D → MaxPooling → Conv2D → MaxPooling → Fully Connected  
-- **Activation Functions:** ReLU & Softmax  
+- **Architecture:**  
+  - Conv2D → MaxPooling → Conv2D → MaxPooling → Fully Connected Layers  
+- **Activation Functions:** ReLU (hidden layers) & Softmax (output layer)  
 - **Optimizer:** Adam  
 - **Loss Function:** Categorical Crossentropy  
 
-### **2️⃣ CNN Model with Transfer Learning**  
-- **Pre-trained Model:** ResNet50 (or VGG16, MobileNet, etc.)  
+### **2️⃣ CNN Model with Transfer Learning (VGG19)**  
+- **Pre-trained Model:** VGG19 (weights trained on ImageNet)  
 - **Fine-tuned Layers:** Last few layers trained on the Intel dataset  
 - **Optimizer:** Adam  
 - **Loss Function:** Categorical Crossentropy  
@@ -70,12 +72,28 @@ Intel-CNN-Image-Classification/
 
 ## **📊 Results & Comparison**  
 
-| Model                  | Accuracy | Training Time | Overfitting Risk |
-|------------------------|----------|---------------|------------------|
-| CNN (From Scratch)     | XX%      | XX min        | XX%              |
-| Transfer Learning CNN  | XX%      | XX min        | XX%              |
+### **Classification Report for CNN With Transfer Learning**
 
-📈 *Graphs of Training vs. Validation Loss and Accuracy included in the results section.*
+|              | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| buildings    |    0.92   |  0.89  |   0.91   |   437   |
+| forest       |    0.96   |  0.99  |   0.98   |   474   |
+| glacier      |    0.83   |  0.80  |   0.82   |   553   |
+| mountain     |    0.82   |  0.83  |   0.82   |   525   |
+| sea          |    0.93   |  0.91  |   0.92   |   510   |
+| street       |    0.89   |  0.93  |   0.91   |   501   |
+|              |           |        |          |         |
+| accuracy     |           |        |   0.89   |   3000  |
+| macro avg    |    0.89   |  0.89  |   0.89   |   3000  |
+| weighted avg |    0.89   |  0.89  |   0.89   |   3000  |
+
+---
+
+
+###  **📈 Graphs of Training Loss and Accuracy**
+#### **CNN With Transfer Learning**
+![Confusion Matrix](Results/Confusion%20Matrix%20TL.png)
+
 
 ---
 
