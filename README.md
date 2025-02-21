@@ -94,7 +94,7 @@ Intel-CNN-Image-Classification/
 
 ---
 
-###  **📈 Graphs of Training Loss and Accuracy**
+###  **Confusion Matrices**
 #### **CNN With Transfer Learning**
 ![Confusion Matrix](Results/Confusion%20Matrix%20TL.png)
 
@@ -102,7 +102,7 @@ Intel-CNN-Image-Classification/
 ![Confusion Matrix](Results/Confusion%20Matrix.png)
 
 
-###  **Confusion Matrices**
+###  **📈 Graphs of Training Loss and Accuracy**
 #### **CNN With Transfer Learning**
 ![Loss and Accuracy Graphs](Results/Plots%20TL.png)
 
