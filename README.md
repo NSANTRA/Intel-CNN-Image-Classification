@@ -131,6 +131,8 @@ Intel-CNN-Image-Classification/
 
 #### **CNN From Sratch**
 ![Confusion Matrix](Results/Confusion%20Matrix.png)
+<br>
+
 **Key Observations:**
 - ❌ Lower overall accuracy – More misclassifications across most categories.
 - ❌ Glacier category struggles the most – 99 glaciers classified as mountains (compared to 69 in TL model).
