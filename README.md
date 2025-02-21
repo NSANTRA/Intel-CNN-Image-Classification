@@ -16,6 +16,8 @@ This project implements Convolutional Neural Networks (CNNs) for image classific
 *   🏗️ **Modular Code Structure:** Well-organized for easy modification and experimentation.
 
 📂 **Project Structure**
+
+```
 Intel-CNN-Image-Classification/
 ├── data/                   # Dataset (Train/Test)
 ├── Models/                 # Saved Models (.h5 files)
@@ -27,3 +29,4 @@ Intel-CNN-Image-Classification/
 ├── requirements.txt        # Required Dependencies
 ├── README.md               # Project Documentation
 └── .gitignore              # Git Ignore File
+```
