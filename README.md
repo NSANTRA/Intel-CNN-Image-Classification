@@ -87,6 +87,26 @@ Intel-CNN-Image-Classification/
 | **macro avg**    |    0.89   |  0.89  |   0.89   |   3000  |
 | **weighted avg** |    0.89   |  0.89  |   0.89   |   3000  |
 
+#### **🔹 Key Observations:**
+- ✅ High Overall Accuracy: 89% – The model performs well across all classes.
+- ✅ Forest category has the highest accuracy (Precision: 0.96, Recall: 0.99, F1-score: 0.98) – Very few misclassifications.
+- ✅ Buildings, Sea, and Street categories also perform well (F1-score: ~0.91).
+- ✅ Glacier and Mountain have the lowest scores (F1-score: ~0.82) – These categories are harder to classify correctly.
+
+#### **Class-Wise Weights**
+|     Category     | Precision | Recall | F1-Score | Observations                                               |
+|------------------|-----------|--------|----------|------------------------------------------------------------|
+| **buildings**    |    0.92   |  0.89  |   0.91   |   Some buildings misclassified as streets.                 |
+| **forest**       |    0.96   |  0.99  |   0.98   |   Best performing class – almost perfect classification.   |
+| **glacier**      |    0.83   |  0.80  |   0.82   |   Some glaciers misclassified as mountains.                |
+| **mountain**     |    0.82   |  0.83  |   0.82   |   Often confused with glaciers.                            |
+| **sea**          |    0.93   |  0.91  |   0.92   |   Often confused with glaciers.                            |
+| **street**       |    0.89   |  0.93  |   0.91   |   Often confused with glaciers.                            |
+
+#### **🔹 Key Takeaways:**
+- 📌 Transfer Learning significantly boosts accuracy, with an overall F1-score of 0.89.
+- 📌 Forest classification is near-perfect, while glacier and mountain have the most confusion.
+- 📌 Further improvements can be made by refining the model’s ability to differentiate glaciers and mountains.
 ---
 
 ###  **Confusion Matrices**
