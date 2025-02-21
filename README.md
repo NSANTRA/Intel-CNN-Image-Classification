@@ -90,8 +90,8 @@ Intel-CNN-Image-Classification/
 #### **🔹 Key Observations:**
 - ✅ **High Overall Accuracy:** 89% – The model performs well across all classes.
 - ✅ Forest category has the highest accuracy (**Precision: 0.96**, **Recall: 0.99**, **F1-score: 0.98**) – Very few misclassifications.
-- ✅ Buildings, Sea, and Street categories also perform well (F1-score: ~0.91).
-- ✅ Glacier and Mountain have the lowest scores (F1-score: ~0.82) – These categories are harder to classify correctly.
+- ✅ Buildings, Sea, and Street categories also perform well (**F1-score: ~0.91**).
+- ✅ Glacier and Mountain have the lowest scores (**F1-score: ~0.82**) – These categories are harder to classify correctly.
 
 #### **Class-Wise Weights**
 |     Category     | Precision | Recall | F1-Score | Observations                                               |
@@ -104,7 +104,7 @@ Intel-CNN-Image-Classification/
 | **street**       |    0.89   |  0.93  |   0.91   |   Often confused with glaciers.                            |
 
 #### **🔹 Key Takeaways:**
-- 📌 Transfer Learning significantly boosts accuracy, with an overall F1-score of 0.89.
+- 📌 Transfer Learning significantly boosts accuracy, with an **overall F1-score of 0.89**.
 - 📌 Forest classification is near-perfect, while glacier and mountain have the most confusion.
 - 📌 Further improvements can be made by refining the model’s ability to differentiate glaciers and mountains.
 ---
@@ -112,6 +112,8 @@ Intel-CNN-Image-Classification/
 ###  **Confusion Matrices**
 #### **CNN With Transfer Learning**
 ![Confusion Matrix](Results/Confusion%20Matrix%20TL.png)
+<br>
+
 **Key Observations:**
 - ✅ High overall accuracy, fewer misclassifications compared to the second model.
 - ✅ Forest category is nearly perfect – 468 out of 474 correctly classified.
@@ -152,7 +154,7 @@ Intel-CNN-Image-Classification/
 |**Buildings Accuracy**   |391 correctly classified, 43 misclassified as street|351 correctly classified, 67 misclassified as street|
 |**Forest Accuracy**      |468 correctly classified, almost no errors          |453 correctly classified, some errors               |
 |**Glacier vs. Mountain** |69 glaciers misclassified as mountains              |99 glaciers misclassified as mountains (worse)      |
-|**Sea vs. Mountain**     |	Few misclassifications                             |More confusion between sea and mountain             |
+|**Sea vs. Mountain**     |Few misclassifications                              |More confusion between sea and mountain             |
 |**Street vs. Buildings** |Some confusion but better handling                  |More streets misclassified as buildings             |
 
 **Key Takeaways**
