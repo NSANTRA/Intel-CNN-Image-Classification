@@ -17,7 +17,7 @@ This project implements Convolutional Neural Networks (CNNs) for image classific
 
 📂 **Project Structure**
 
-```
+```tree
 Intel-CNN-Image-Classification/
 ├── data/                   # Dataset (Train/Test)
 ├── Models/                 # Saved Models (.h5 files)
