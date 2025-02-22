@@ -3,17 +3,23 @@
 🌍 Deep Learning Model for Classifying Intel Image Dataset
 
 ## **📌 Project Overview**  
-This project implements two **Convolutional Neural Networks (CNNs)** for **Intel Image Classification**:  
-1️⃣ **CNN Model (Trained from Scratch)**  
-2️⃣ **CNN Model with Transfer Learning** (using VGG19 as the pre-trained model)
+This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
-The goal is to classify images into six categories:  
+The dataset consists of images categorized into six distinct classes:
+<br>
 🏢 **Buildings** | 🌲 **Forest** | 🏔 **Glacier** | ⛰ **Mountain** | 🌊 **Sea** | 🛣 **Street**
+
+Two different approaches are implemented to assess performance and effectiveness:
+
+1. **CNN Model with Transfer Learning** – A model leveraging **VGG19**, a pre-trained deep learning architecture, to enhance feature extraction and improve classification accuracy.
+2. **CNN Model Trained from Scratch** – A custom-built convolutional neural network trained without any pre-existing weights.
 
 ---
 
 ## **📂 Dataset**  
-The dataset used is the **Intel Image Classification Dataset**, which contains:  
+The **Intel Image Dataset** consists of images categorized into six natural and man-made scenery classes. It is a widely used benchmark dataset for scene recognition and classification tasks. The dataset is structured into training, validation, and test sets to facilitate model evaluation.
+
+### **Dataset Structure**
 - **Train Set:** 14,034 images  
 - **Test Set:** 3,000 images  
 - **Prediction Set:** 7,301 images  
@@ -36,19 +42,19 @@ The dataset used is the **Intel Image Classification Dataset**, which contains:
 
 ```
 Intel-CNN-Image-Classification/
-├── Dataset/                 # Intel Image Dataset
-│   ├── seg_train/           # Training Images
-│   ├── seg_test/            # Testing Images
-│   ├── seg_pred/            # Unlabeled Images
-├── Models/                  # Saved Models (.h5 files)
+├── Dataset/                                            # Intel Image Dataset
+│   ├── seg_train/                                      # Training Images
+│   ├── seg_test/                                       # Testing Images
+│   ├── seg_pred/                                       # Unlabeled Images
+├── Models/                                             # Saved Models (.h5 files)
 │   ├── Model With Transfer Learning.h5
 │   ├── Model Without Transfer Learning.h5
-├── Notebooks/               # Jupyter Notebooks for training & evaluation
+├── Notebooks/                                          # Jupyter Notebooks for training & evaluation
 │   ├── Classification With Transfer Learning.ipynb
 │   ├── Classification Without Transfer Learning.ipynb
-├── requirements.txt         # Required Dependencies
-├── README.md                # Project Documentation
-└── .gitignore               # Git Ignore File
+├── requirements.txt                                    # Required Dependencies
+├── README.md                                           # Project Documentation
+└── .gitignore                                          # Git Ignore File
 ```
 
 ---
