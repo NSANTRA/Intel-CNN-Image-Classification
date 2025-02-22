@@ -24,7 +24,8 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 - **Test Set:** 3,000 images  
 - **Prediction Set:** 7,301 images  
 
-📥 **Download Dataset:** [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+### 📥 **Download Dataset:**
+[Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
 ---
 
@@ -218,3 +219,4 @@ conda env create -f "Tensorflow.yml"
 conda activate Tensorflow
 ```
 
+To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#download-dataset)
