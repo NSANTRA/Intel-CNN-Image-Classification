@@ -40,31 +40,30 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 
 ## **📂 Project Structure**
 
-
-```
+```tree
 Intel-CNN-Image-Classification/
-├── Dataset/                                            # Intel Image Dataset
-│   ├── seg_train/                                      # Training Images
-│   ├── seg_test/                                       # Testing Images
-│   ├── seg_pred/                                       # Unlabeled Images
-├── Models/                                             # Saved Models (.h5 files)
-│   ├── Model With Transfer Learning.h5
-│   ├── Model Without Transfer Learning.h5
-├── Notebooks/                                          # Jupyter Notebooks for training & evaluation
-│   ├── Classification With Transfer Learning.ipynb
-│   ├── Classification Without Transfer Learning.ipynb
-├── requirements.txt                                    # Required Dependencies
-├── README.md                                           # Project Documentation
-└── .gitignore                                          # Git Ignore File
+├── Dataset/                                             # Intel Image Dataset
+│   └── seg_train/                                       # Training Images
+│   └── seg_test/                                        # Testing Images
+│   └── seg_pred/                                        # Unlabeled Images                                    
+├── Models/                                              # Saved Models (.h5 files)
+│   └── Model With Transfer Learning.h5
+│   └── Model Without Transfer Learning.h5
+├── Notebooks/                                           # Jupyter Notebooks for training & evaluation
+│   └── Classification With Transfer Learning.ipynb
+│   └── Classification Without Transfer Learning.ipynb
+├── requirements.txt                                     # Required Dependencies
+├── README.md                                            # Project Documentation
+└── .gitignore                                           # Git Ignore File
 ```
 
 ---
 
 ## **⚙️ Model Architectures**  
 
-### **2️⃣ CNN Model with Transfer Learning (VGG19)**  
+### **1️⃣ CNN Model with Transfer Learning (VGG19)**  
 
-| Layer (Type)                                   | Output Shape      | Param #    |
+| Layer (Type)                                   | Output Shape      | Parameters |
 |------------------------------------------------|-------------------|------------|
 | vgg19 (Functional)                             | (None, 4, 4, 512) | 20,024,384 |
 | flatten_2 (Flatten)                            | (None, 8192)      | 0          |
@@ -83,19 +82,19 @@ Intel-CNN-Image-Classification/
 - **Optimizer:** Adam
 - **Loss Function:** Sparse Categorical Crossentropy
 
-### **1️⃣ CNN Model (Trained from Scratch)**  
+### **2️⃣ CNN Model (Trained from Scratch)**  
 
-| Layer (Type)                               | Output Shape         | Param #  |
-|--------------------------------------------|----------------------|----------|
-| conv2d (Conv2D)                            | (None, 150, 150, 64) | 1,792    |
-| batch_normalization (BatchNormalization)   | (None, 150, 150, 64) | 256      |
-| conv2d_1 (Conv2D)                          | (None, 150, 150, 64) | 36,928   |
-| batch_normalization_1 (BatchNormalization) | (None, 150, 150, 64) | 256      |
-| max_pooling2d (MaxPooling2D)               | (None, 75, 75, 64)   | 0        |
-| conv2d_2 (Conv2D)                          | (None, 75, 75, 128)  | 73,856   |
-| batch_normalization_2 (BatchNormalization) | (None, 75, 75, 128)  | 512      |
-| conv2d_3 (Conv2D)                          | (None, 75, 75, 128)  | 147,584  |
-| batch_normalization_3 (BatchNormalization) | (None, 75, 75, 128)  | 512      |
+| Layer (Type)                               | Output Shape         | Parameters |
+|--------------------------------------------|----------------------|------------|
+| conv2d (Conv2D)                            | (None, 150, 150, 64) | 1,792      |
+| batch_normalization (BatchNormalization)   | (None, 150, 150, 64) | 256        |
+| conv2d_1 (Conv2D)                          | (None, 150, 150, 64) | 36,928     |
+| batch_normalization_1 (BatchNormalization) | (None, 150, 150, 64) | 256        |
+| max_pooling2d (MaxPooling2D)               | (None, 75, 75, 64)   | 0          |
+| conv2d_2 (Conv2D)                          | (None, 75, 75, 128)  | 73,856     |
+| batch_normalization_2 (BatchNormalization) | (None, 75, 75, 128)  | 512        |
+| conv2d_3 (Conv2D)                          | (None, 75, 75, 128)  | 147,584    |
+| batch_normalization_3 (BatchNormalization) | (None, 75, 75, 128)  | 512        |
 
 
 - **Non-trainable Parameters:** 1,216  
@@ -144,6 +143,7 @@ Intel-CNN-Image-Classification/
 - 📌 Transfer Learning significantly boosts accuracy, with an **overall F1-score of 0.89**.
 - 📌 Forest classification is near-perfect, while Glacier and Mountain have the most confusion.
 - 📌 Further improvements can be made by refining the model’s ability to differentiate Glaciers and Mountains.
+
 ---
 
 ###  **Confusion Matrices**
@@ -250,3 +250,12 @@ conda activate Tensorflow
 ```
 
 To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#-download-dataset)
+
+## **Conclusion and Future Scope**
+
+This project demonstrates the effectiveness of CNNs in classifying natural and urban scenes. Transfer learning with VGG19 significantly improves accuracy and generalization compared to training a model from scratch. Future enhancements could include:
+
+1. Experimenting with other pre-trained models (ResNet, EfficientNet, etc.).
+2. Implementing data augmentation techniques to improve robustness.
+3. Optimizing hyperparameters using automated search techniques.
+4. Deploying the model as a web-based or mobile application.
