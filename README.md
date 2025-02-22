@@ -62,18 +62,48 @@ Intel-CNN-Image-Classification/
 
 ## **⚙️ Model Architectures**  
 
-### **1️⃣ CNN Model (Trained from Scratch)**  
-- **Architecture:**  
-  - Conv2D → MaxPooling → Conv2D → MaxPooling → Fully Connected Layers  
-- **Activation Functions:** ReLU (hidden layers) & Softmax (output layer)  
-- **Optimizer:** Adam  
-- **Loss Function:** Categorical Crossentropy  
-
 ### **2️⃣ CNN Model with Transfer Learning (VGG19)**  
-- **Pre-trained Model:** VGG19 (weights trained on ImageNet)  
-- **Fine-tuned Layers:** Last few layers trained on the Intel dataset  
+
+| Layer (Type)                                   | Output Shape      | Param #    |
+|------------------------------------------------|-------------------|------------|
+| vgg19 (Functional)                             | (None, 4, 4, 512) | 20,024,384 |
+| flatten_2 (Flatten)                            | (None, 8192)      | 0          |
+| dense_8 (Dense)                                | (None, 512)       | 4,194,816  |
+| batch_normalization_6 (BatchNormalization)     | (None, 512)       | 2,048      |
+| dense_9 (Dense)                                | (None, 256)       | 131,328    |
+| batch_normalization_7 (BatchNormalization)     | (None, 256)       | 1,024      |
+| dense_10 (Dense)                               | (None, 128)       | 32,896     |
+| batch_normalization_8 (BatchNormalization)     | (None, 128)       | 512        |
+| dense_11 (Dense)                               | (None, 6)         | 774        |
+
+- **Non-Trainable Parameters**: 20,026,176
+- **Trainable Parameters**: 4,361,606
+- **Total Parameters**: 24,387,782
+
+- **Optimizer:** Adam
+- **Loss Function:** Sparse Categorical Crossentropy
+
+### **1️⃣ CNN Model (Trained from Scratch)**  
+
+| Layer (Type)                               | Output Shape         | Param #  |
+|--------------------------------------------|----------------------|----------|
+| conv2d (Conv2D)                            | (None, 150, 150, 64) | 1,792    |
+| batch_normalization (BatchNormalization)   | (None, 150, 150, 64) | 256      |
+| conv2d_1 (Conv2D)                          | (None, 150, 150, 64) | 36,928   |
+| batch_normalization_1 (BatchNormalization) | (None, 150, 150, 64) | 256      |
+| max_pooling2d (MaxPooling2D)               | (None, 75, 75, 64)   | 0        |
+| conv2d_2 (Conv2D)                          | (None, 75, 75, 128)  | 73,856   |
+| batch_normalization_2 (BatchNormalization) | (None, 75, 75, 128)  | 512      |
+| conv2d_3 (Conv2D)                          | (None, 75, 75, 128)  | 147,584  |
+| batch_normalization_3 (BatchNormalization) | (None, 75, 75, 128)  | 512      |
+
+
+- **Non-trainable Parameters:** 1,216  
+- **Trainable Parameters:** 22,701,734  
+- **Total Parameters:** 22,702,950  
+  
 - **Optimizer:** Adam  
-- **Loss Function:** Categorical Crossentropy  
+- **Loss Function:** Sparse Categorical Crossentropy  
 
 ---
 
