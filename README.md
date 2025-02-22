@@ -219,4 +219,4 @@ conda env create -f "Tensorflow.yml"
 conda activate Tensorflow
 ```
 
-To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#download-dataset)
+To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#-download-dataset)
