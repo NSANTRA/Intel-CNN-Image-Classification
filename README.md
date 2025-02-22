@@ -199,6 +199,12 @@ Ensure Anaconda is installed, if not you can download from [Anaconda](https://ww
 
 Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
 
+Create a conda environment:
 ```bash
-conda env create -f "Tensorflow-GPU.yml"
+conda env create -f "Tensorflow.yml"
+```
+
+Activate the newly created environment:
+```bash
+conda activate Tensorflow
 ```

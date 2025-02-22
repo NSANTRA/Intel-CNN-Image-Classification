@@ -1,4 +1,4 @@
-name: Tensorflow-GPU
+name: Tensorflow
 channels:
   - defaults
 dependencies:
