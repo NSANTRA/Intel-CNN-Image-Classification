@@ -194,17 +194,27 @@ Intel-CNN-Image-Classification/
 
 ## **🚀 Installation & Usage**  
 
-### **🔧 Requirements**  
-Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success)
+### **🔧 Requirements**
+Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
 
 Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
+1. To clone this repository, run the following command:
+```bash
+git clone https://github.com/NSANTRA/Intel-CNN-Image-Classification
+```
 
-Create a conda environment:
+2. Move to the project repository:
+```bash
+cd Intel-CNN-Image-Classification
+```
+
+3. Create a conda environment:
 ```bash
 conda env create -f "Tensorflow.yml"
 ```
 
-Activate the newly created environment:
+4. Activate the newly created environment:
 ```bash
 conda activate Tensorflow
 ```
+
