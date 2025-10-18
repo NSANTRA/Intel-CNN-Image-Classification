@@ -28,7 +28,6 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 - **Test Set:** 3,000 images  
 - **Prediction Set:** 7,301 images  
 
-### 📥 **Download Dataset:**
 > [!TIP]
 > You can download the dataset from here: [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
@@ -44,7 +43,8 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 
 ---
 
-## **📂 Project Structure**
+<!-- ## **📂 Project Structure** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
 
 ```tree
 Intel-CNN-Image-Classification/
@@ -65,7 +65,8 @@ Intel-CNN-Image-Classification/
 
 ---
 
-## **⚙️ Model Architectures**  
+<!-- ## **⚙️ Model Architectures** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=MODEL+ARCHITECTURES)](https://git.io/typing-svg)
 
 ### **1️⃣ CNN Model with Transfer Learning (VGG19)**  
 
@@ -112,7 +113,8 @@ Intel-CNN-Image-Classification/
 
 ---
 
-## **📊 Results & Comparison**  
+<!-- ## **📊 Results & Comparison** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=RESULTS+%26+COMPARISON)](https://git.io/typing-svg)
 
 ### **Classification Report for CNN With Transfer Learning**
 
@@ -219,7 +221,8 @@ Intel-CNN-Image-Classification/
 
 ---
 
-## **Technologies and Tools Used**
+<!-- ## **Technologies and Tools Used** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=TECHNOLOGIES+%26+TOOLS)](https://git.io/typing-svg)
 - **IDE:** Jupyter Lab
 - **Programming Language:** Python
 - **Deep Learning Framework:** TensorFlow/Keras
@@ -229,10 +232,12 @@ Intel-CNN-Image-Classification/
 
 ---
 
-## **🚀 Installation & Usage**  
+<!-- ## **🚀 Installation & Usage** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=INSTALLATION+%26+USAGE)](https://git.io/typing-svg)
 
 ### **🔧 Requirements**
-Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
+> [!IMPORTANT]
+> Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
 
 Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
 1. To clone this repository, run the following command:
@@ -257,7 +262,10 @@ conda activate Tensorflow
 
 To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#-download-dataset)
 
-## **Conclusion and Future Scope**
+---
+
+<!-- ## **Conclusion and Future Scope** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=CONCLUSION+%26+FUTURE+SCOPE)](https://git.io/typing-svg)
 
 This project demonstrates the effectiveness of CNNs in classifying natural and urban scenes. Transfer learning with VGG19 significantly improves accuracy and generalization compared to training a model from scratch. Future enhancements could include:
 
