@@ -238,7 +238,6 @@ Intel-CNN-Image-Classification/
 ### **🔧 Requirements**
 > [!IMPORTANT]
 > - Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
-
 > - Also download the mentioned dataset before running any of the notebooks, and change the paths in the notebooks whereever necessary.
 
 Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
