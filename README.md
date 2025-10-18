@@ -1,8 +1,10 @@
-# Intel CNN Image Classification
+<!-- # Intel CNN Image Classification -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
 
-🌍 Deep Learning Model for Classifying Intel Image Dataset
+---
 
-## **📌 Project Overview**  
+<!-- ## **📌 Project Overview** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
 This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
 The dataset consists of images categorized into six distinct classes:
@@ -16,7 +18,9 @@ Two different approaches are implemented to assess performance and effectiveness
 
 ---
 
-## **📂 Dataset**  
+<!-- ## **📂 Dataset** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=DATASET)](https://git.io/typing-svg)
+
 The **Intel Image Dataset** consists of images categorized into six natural and man-made scenery classes. It is a widely used benchmark dataset for scene recognition and classification tasks. The dataset is structured into training, validation, and test sets to facilitate model evaluation.
 
 ### **Dataset Structure**
@@ -25,11 +29,13 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 - **Prediction Set:** 7,301 images  
 
 ### 📥 **Download Dataset:**
-[Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+> [!TIP]
+> You can download the dataset from here: [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
 ---
 
-## **🚀 Features**
+<!-- ## **🚀 Features** -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=FEATURES)](https://git.io/typing-svg)
 
 - **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
 - **Transfer Learning:** Uses VGG19 as the pre-trained model for improved accuracy.
