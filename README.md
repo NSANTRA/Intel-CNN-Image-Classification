@@ -1,10 +1,10 @@
 <!-- # Intel CNN Image Classification -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
+[![TITLE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
 
 ---
 
 <!-- ## **📌 Project Overview** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
+[![PROJECT OVERVIEW](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
 This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
 The dataset consists of images categorized into six distinct classes:
@@ -19,7 +19,7 @@ Two different approaches are implemented to assess performance and effectiveness
 ---
 
 <!-- ## **📂 Dataset** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=DATASET)](https://git.io/typing-svg)
+[![DATASET](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=DATASET)](https://git.io/typing-svg)
 
 The **Intel Image Dataset** consists of images categorized into six natural and man-made scenery classes. It is a widely used benchmark dataset for scene recognition and classification tasks. The dataset is structured into training, validation, and test sets to facilitate model evaluation.
 
@@ -233,11 +233,12 @@ Intel-CNN-Image-Classification/
 ---
 
 <!-- ## **🚀 Installation & Usage** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=INSTALLATION+%26+USAGE)](https://git.io/typing-svg)
+[![INSTALLATION](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=INSTALLATION+%26+USAGE)](https://git.io/typing-svg)
 
 ### **🔧 Requirements**
 > [!IMPORTANT]
 > Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
+> Also download the mentioned dataset before running any of the notebooks, and change the paths in the notebooks whereever necessary.
 
 Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
 1. To clone this repository, run the following command:
@@ -259,8 +260,6 @@ conda env create -f "Tensorflow.yml"
 ```bash
 conda activate Tensorflow
 ```
-
-To run any of the notebooks, first download the dataset from the link given in the [Download Dataset Section](#-download-dataset)
 
 ---
 
