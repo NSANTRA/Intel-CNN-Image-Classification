@@ -249,6 +249,45 @@ After activating the environment:
 
 ---
 
+### **Classification Report for CNN Without Transfer Learning**
+
+|                  | Precision | Recall | F1-Score | Support |
+|------------------|-----------|--------|----------|---------|
+| **Buildings**    |    0.86   |  0.80  |   0.83   |   437   |
+| **Forest**       |    0.93   |  0.96  |   0.94   |   474   |
+| **Glacier**      |    0.79   |  0.66  |   0.72   |   553   |
+| **Mountain**     |    0.78   |  0.75  |   0.77   |   525   |
+| **Sea**          |    0.75   |  0.88  |   0.81   |   510   |
+| **Street**       |    0.83   |  0.88  |   0.86   |   501   |
+|                  |           |        |          |         |
+| *accuracy*       |           |        |   0.82   |   3000  |
+| *macro avg*      |    0.82   |  0.82  |   0.82   |   3000  |
+| *weighted avg*   |    0.82   |  0.82  |   0.82   |   3000  |
+
+#### **🔹 Key Observations**
+- ✅ Overall Accuracy: The CNN model achieves an accuracy of 82%, showing strong generalization across multiple scene classes.
+- ✅ Best Performing Class: Forest shows the highest performance (Precision: 0.93, Recall: 0.96, F1-score: 0.94), indicating clear, distinctive visual features.
+- ✅ Moderate Performance: Buildings, Street, and Sea classes show solid results (F1-scores ≈ 0.83–0.86), though some confusion occurs among visually similar categories.
+- ⚠️ Challenging Categories: Glacier and Mountain have the lowest F1-scores (0.72 and 0.77), suggesting overlap in texture and color patterns between these landscapes.
+
+#### **Class-Wise Weights**
+|     Category     | Precision | Recall | F1-Score | Observations                                                                                    |
+|------------------|-----------|--------|----------|--------------------------------------------------------------------------------------------------|
+| **Buildings**    |    0.86   |  0.80  |   0.83   | Good accuracy (F1: 0.83); likely confused with Street scenes due to similar man-made structures. |
+| **Forest**       |    0.93   |  0.96  |   0.94   | Excellent classification; high recall (0.96) shows strong detection capability for vegetation.   |
+| **Glacier**      |    0.79   |  0.66  |   0.72   | Underperforms (F1: 0.72); frequent confusion with Mountain due to similar snowy textures.        |
+| **Mountain**     |    0.78   |  0.75  |   0.77   | Moderate accuracy (F1: 0.77); overlaps visually with Glacier terrain.                            |
+| **Sea**          |    0.75   |  0.88  |   0.81   | Performs well (F1: 0.81); sometimes confused with Glacier scenes.                                |
+| **Street**       |    0.83   |  0.88  |   0.86   | Solid performance (F1: 0.86); some misclassifications with Buildings.                            |
+
+#### **🔹 Key Takeaways**
+- 📌 The CNN without transfer learning achieves a balanced overall performance (F1-score: 0.82).
+- 📌 The model performs best on natural, distinct textures (Forest), while struggling with visually overlapping classes (Glacier, Mountain).
+- 📌 Feature extraction could be improved with deeper architectures or transfer learning to boost recognition of subtle scene differences.
+- 📌 These results form a strong baseline for comparison against models using transfer learning.
+
+---
+
 ###  **Confusion Matrices**
 #### **CNN With Transfer Learning**
 ![Confusion Matrix](Results/Confusion%20Matrix%20TL.png)
