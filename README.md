@@ -15,7 +15,27 @@
 
 ---
 
+[![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
+
+- [🧠 Project Overview](#-installation)
+- ✨ Features
+- 🧰 Technologies & Tools
+- 🗂 Dataset
+- 🚀 Getting Started
+    - 🔧 Prerequisites
+    - ⚙️ Installation
+    - ▶️ Usage
+- 🏗 Model Architectures
+- 📊 Results & Comparison
+    - 🔹 Key Observations
+    - 📈 Graphs of Training Loss and Accuracy
+- 📁 Project Structure
+- 📜 License
+
+---
+
 <!-- Project Overview -->
+<a name="project-overview"></a>
 [![PROJECT OVERVIEW](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
 This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
@@ -286,6 +306,7 @@ Intel-CNN-Image-Classification/
 ---
 
 <!-- License -->
+<a id="installation"></a>
 [![LICENSE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=LICENSE)](https://git.io/typing-svg)
 MIT License
 
