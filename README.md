@@ -1,3 +1,4 @@
+<a id="top"></a>
 [![TITLE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
@@ -17,7 +18,7 @@
 
 [![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
 
-- 🧠 <a href="#installation">Project Overview</a>
+<!-- - 🧠 <a href="#installation">Project Overview</a>
 - ✨ <a href="#features">Features</a>
 - 🧰 <a href="#tech-stack">Technologies & Tools</a>
 - 🗂 <a href="#dataset">Dataset</a>
@@ -30,7 +31,24 @@
     - 🔹 Key Observation
     - 📈 Graphs of Training Loss & Accuracy
 - 📁 <a href="#project-structure">Project Structure</a>
-- 📜 <a href="#license">License</a>
+- 📜 <a href="#license">License</a> -->
+
+
+- <a href="#project-overview" style="text-decoration:none;color:inherit;">🧠 Project Overview</a>
+- <a href="#features" style="text-decoration:none;color:inherit;">✨ Features</a>
+- <a href="#tech-stack" style="text-decoration:none;color:inherit;">🧰 Technologies & Tools</a>
+- <a href="#dataset" style="text-decoration:none;color:inherit;">🗂 Dataset</a>
+- <a href="#getting-started" style="text-decoration:none;color:inherit;">🚀 Getting Started</a>
+    - 🔧 Prerequisites
+    - ⚙️ Installation
+    - ▶️ Usage
+- <a href="#model-architectures" style="text-decoration:none;color:inherit;">🏗 Model Architectures</a>
+- <a href="#results" style="text-decoration:none;color:inherit;">📊 Results & Comparison</a>
+    - 🔹 Key Observations
+    - 📈 Graphs of Training Loss & Accuracy
+- <a href="#project-structure" style="text-decoration:none;color:inherit;">📁 Project Structure</a>
+- <a href="#license" style="text-decoration:none;color:inherit;">📜 License</a>
+
 
 ---
 
@@ -336,3 +354,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+<div align="right">
+  <!-- <br> -->
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
