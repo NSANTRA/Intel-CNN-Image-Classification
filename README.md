@@ -18,7 +18,7 @@
 
 [![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
 
-<!-- - 🧠 <a href="#installation">Project Overview</a>
+- 🧠 <a href="#installation">Project Overview</a>
 - ✨ <a href="#features">Features</a>
 - 🧰 <a href="#tech-stack">Technologies & Tools</a>
 - 🗂 <a href="#dataset">Dataset</a>
@@ -31,24 +31,7 @@
     - 🔹 Key Observation
     - 📈 Graphs of Training Loss & Accuracy
 - 📁 <a href="#project-structure">Project Structure</a>
-- 📜 <a href="#license">License</a> -->
-
-
-- <a href="#project-overview" style="text-decoration:none;color:inherit;">🧠 Project Overview</a>
-- <a href="#features" style="text-decoration:none;color:inherit;">✨ Features</a>
-- <a href="#tech-stack" style="text-decoration:none;color:inherit;">🧰 Technologies & Tools</a>
-- <a href="#dataset" style="text-decoration:none;color:inherit;">🗂 Dataset</a>
-- <a href="#getting-started" style="text-decoration:none;color:inherit;">🚀 Getting Started</a>
-    - 🔧 Prerequisites
-    - ⚙️ Installation
-    - ▶️ Usage
-- <a href="#model-architectures" style="text-decoration:none;color:inherit;">🏗 Model Architectures</a>
-- <a href="#results" style="text-decoration:none;color:inherit;">📊 Results & Comparison</a>
-    - 🔹 Key Observations
-    - 📈 Graphs of Training Loss & Accuracy
-- <a href="#project-structure" style="text-decoration:none;color:inherit;">📁 Project Structure</a>
-- <a href="#license" style="text-decoration:none;color:inherit;">📜 License</a>
-
+- 📜 <a href="#license">License</a>
 
 ---
 
@@ -65,6 +48,10 @@ Two different approaches are implemented to assess performance and effectiveness
 
 1. **CNN Model with Transfer Learning** – A model leveraging **VGG19**, a pre-trained deep learning architecture, to enhance feature extraction and improve classification accuracy.
 2. **CNN Model Trained from Scratch** – A custom-built convolutional neural network trained without any pre-existing weights.
+
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
 ---
 
@@ -89,6 +76,10 @@ Two different approaches are implemented to assess performance and effectiveness
 - **Visualization:** Matplotlib, Seaborn
 - **Hardware Acceleration:** GPU (CUDA-enabled for TensorFlow)
 
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
 ---
 
 <!-- Dataset -->
@@ -104,6 +95,10 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 
 > [!TIP]
 > You can download the dataset from here: [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
+
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
 ---
 
@@ -146,6 +141,10 @@ After activating the environment:
 - Navigate to the project folder and open the desired notebook.
 - Ensure dataset paths are correctly configured in each notebook.
 - Run the cells sequentially to execute the project.
+
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
 ---
 
@@ -195,6 +194,10 @@ After activating the environment:
   
 - **Optimizer:** Adam  
 - **Loss Function:** Sparse Categorical Crossentropy  
+
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
 ---
 
@@ -305,6 +308,10 @@ After activating the environment:
 #### **CNN Without Transfer Learning**
 ![Loss and Accuracy Graphs](Results/Plots.png)
 
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
 ---
 
 <!-- Project Structure -->
@@ -327,6 +334,10 @@ Intel-CNN-Image-Classification/
 ├── README.md                                            # Project Documentation
 └── .gitignore                                           # Git Ignore File
 ```
+
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
 ---
 
@@ -356,6 +367,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <div align="right">
-  <!-- <br> -->
   <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
 </div>
