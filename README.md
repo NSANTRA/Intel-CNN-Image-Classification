@@ -64,6 +64,10 @@ Two different approaches are implemented to assess performance and effectiveness
 - **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
 - **Modular Code Structure:** Well-organized for easy modification and experimentation.
 
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
 ---
 
 <!-- Technologies and Tools Used -->
