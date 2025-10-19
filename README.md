@@ -1,7 +1,6 @@
 <a id="top"></a>
 [![TITLE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
 
-
 ![Jupyter Lab](https://img.shields.io/badge/IDE-Jupyter%20Lab-orange?logo=jupyter)
 ![Python](https://img.shields.io/badge/Python-3.10-yellow?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
@@ -10,7 +9,6 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-darkblue?logo=seaborn)
 ![GPU](https://img.shields.io/badge/GPU-CUDA-brightgreen?logo=nvidia)
 ![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)
-
 
 ---
 
@@ -22,7 +20,7 @@
 
 [![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
 
-- 🧠 <a href="#installation">Project Overview</a>
+- 🧠 <a href="#project-overview">Project Overview</a>
 - ✨ <a href="#features">Features</a>
 - 🧰 <a href="#tech-stack">Technologies & Tools</a>
 - 🗂 <a href="#dataset">Dataset</a>
@@ -321,9 +319,7 @@ After activating the environment:
 </div>
 
 ---
-<div align="right">
-  <a href="#top"><kbd> <br> 🡅 Back to Top<br> </kbd></a>
-</div>
+
 <!-- Project Structure -->
 <a id="project-structure"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
