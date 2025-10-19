@@ -17,25 +17,25 @@
 
 [![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
 
-- [🧠 Project Overview](#-installation)
-- ✨ Features
-- 🧰 Technologies & Tools
-- 🗂 Dataset
-- 🚀 Getting Started
+- 🧠 <a href="#installation">Project Overview</a>
+- ✨ <a href="#features">Features</a>
+- 🧰 <a href="#tech-stack">Technologies & Tools</a>
+- 🗂 <a href="#dataset">Dataset</a>
+- 🚀 <a href="#getting-started">Getting Started</a>
     - 🔧 Prerequisites
     - ⚙️ Installation
     - ▶️ Usage
-- 🏗 Model Architectures
-- 📊 Results & Comparison
-    - 🔹 Key Observations
-    - 📈 Graphs of Training Loss and Accuracy
-- 📁 Project Structure
-- 📜 License
+- 🏗 <a href="#model-architectures">Model Architectures</a>
+- 📊 <a href="#results">Results & Comparison</a>
+    - 🔹 Key Observation
+    - 📈 Graphs of Training Loss & Accuracy
+- 📁 <a href="#project-structure">Project Structure</a>
+- 📜 <a href="#license">License</a>
 
 ---
 
 <!-- Project Overview -->
-<a name="project-overview"></a>
+<a id="project-overview"></a>
 [![PROJECT OVERVIEW](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
 This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
@@ -51,6 +51,7 @@ Two different approaches are implemented to assess performance and effectiveness
 ---
 
 <!-- Features -->
+<a id="features"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=FEATURES)](https://git.io/typing-svg)
 
 - **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
@@ -61,6 +62,7 @@ Two different approaches are implemented to assess performance and effectiveness
 ---
 
 <!-- Technologies and Tools Used -->
+<a id="tech-stack"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=TECHNOLOGIES+%26+TOOLS)](https://git.io/typing-svg)
 - **IDE:** Jupyter Lab
 - **Programming Language:** Python
@@ -72,6 +74,7 @@ Two different approaches are implemented to assess performance and effectiveness
 ---
 
 <!-- Dataset -->
+<a id="dataset"></a>
 [![DATASET](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=DATASET)](https://git.io/typing-svg)
 
 The **Intel Image Dataset** consists of images categorized into six natural and man-made scenery classes. It is a widely used benchmark dataset for scene recognition and classification tasks. The dataset is structured into training, validation, and test sets to facilitate model evaluation.
@@ -87,6 +90,7 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 ---
 
 <!-- Getting Started -->
+<a id="getting-started"></a>
 [![GETTING-STARTED](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=GETTING+STARTED)](https://git.io/typing-svg)
 
 ### **🔧 Prerequisites**
@@ -128,6 +132,7 @@ After activating the environment:
 ---
 
 <!-- Model Architectures -->
+<a id="model-architectures"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=MODEL+ARCHITECTURES)](https://git.io/typing-svg)
 
 ### **1️⃣ CNN Model with Transfer Learning (VGG19)**  
@@ -176,6 +181,7 @@ After activating the environment:
 ---
 
 <!-- Results & Comparison -->
+<a id="results"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=RESULTS+%26+COMPARISON)](https://git.io/typing-svg)
 
 ### **Classification Report for CNN With Transfer Learning**
@@ -284,6 +290,7 @@ After activating the environment:
 ---
 
 <!-- Project Structure -->
+<a id="project-structure"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
 
 ```tree
@@ -306,7 +313,7 @@ Intel-CNN-Image-Classification/
 ---
 
 <!-- License -->
-<a id="installation"></a>
+<a id="license"></a>
 [![LICENSE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=LICENSE)](https://git.io/typing-svg)
 MIT License
 
