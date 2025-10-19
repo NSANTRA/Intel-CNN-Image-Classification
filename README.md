@@ -50,9 +50,8 @@ Two different approaches are implemented to assess performance and effectiveness
 2. **CNN Model Trained from Scratch** – A custom-built convolutional neural network trained without any pre-existing weights.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
-
 ---
 
 <!-- Features -->
@@ -65,7 +64,7 @@ Two different approaches are implemented to assess performance and effectiveness
 - **Modular Code Structure:** Well-organized for easy modification and experimentation.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -81,7 +80,7 @@ Two different approaches are implemented to assess performance and effectiveness
 - **Hardware Acceleration:** GPU (CUDA-enabled for TensorFlow)
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -101,7 +100,7 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 > You can download the dataset from here: [Intel Image Classification Dataset](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -147,7 +146,7 @@ After activating the environment:
 - Run the cells sequentially to execute the project.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -200,7 +199,7 @@ After activating the environment:
 - **Loss Function:** Sparse Categorical Crossentropy  
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -313,11 +312,13 @@ After activating the environment:
 ![Loss and Accuracy Graphs](Results/Plots.png)
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
-
+<div align="right">
+  <a href="#top"><kbd> <br> 🡅 Back to Top<br> </kbd></a>
+</div>
 <!-- Project Structure -->
 <a id="project-structure"></a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
@@ -340,7 +341,7 @@ Intel-CNN-Image-Classification/
 ```
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
 
 ---
@@ -371,5 +372,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <div align="right">
-  <a href="#top"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
