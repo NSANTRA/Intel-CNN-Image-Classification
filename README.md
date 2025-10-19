@@ -1,9 +1,21 @@
-<!-- # Intel CNN Image Classification -->
 [![TITLE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-blue?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-lightblue?logo=plotly)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
-<!-- ## **📌 Project Overview** -->
+> **TL;DR:**  
+> This project implements **Convolutional Neural Networks (CNNs)** for classifying natural and man-made scenes from the **Intel Image Dataset**.  
+> It compares two models — a **VGG19 Transfer Learning CNN** and a **Custom CNN trained from scratch** — to evaluate their performance on real-world scene recognition tasks.
+
+---
+
+<!-- Project Overview -->
 [![PROJECT OVERVIEW](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+OVERVIEW)](https://git.io/typing-svg) <br>
 This project focuses on developing and evaluating **Convolutional Neural Networks (CNNs)** for the classification of images from the **Intel Image Dataset**.
 
@@ -18,7 +30,28 @@ Two different approaches are implemented to assess performance and effectiveness
 
 ---
 
-<!-- ## **📂 Dataset** -->
+<!-- Features -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=FEATURES)](https://git.io/typing-svg)
+
+- **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
+- **Transfer Learning:** Uses VGG19 as the pre-trained model for improved accuracy.
+- **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
+- **Modular Code Structure:** Well-organized for easy modification and experimentation.
+
+---
+
+<!-- Technologies and Tools Used -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=TECHNOLOGIES+%26+TOOLS)](https://git.io/typing-svg)
+- **IDE:** Jupyter Lab
+- **Programming Language:** Python
+- **Deep Learning Framework:** TensorFlow/Keras
+- **Data Processing:** OpenCV, NumPy, Pandas
+- **Visualization:** Matplotlib, Seaborn
+- **Hardware Acceleration:** GPU (CUDA-enabled for TensorFlow)
+
+---
+
+<!-- Dataset -->
 [![DATASET](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=DATASET)](https://git.io/typing-svg)
 
 The **Intel Image Dataset** consists of images categorized into six natural and man-made scenery classes. It is a widely used benchmark dataset for scene recognition and classification tasks. The dataset is structured into training, validation, and test sets to facilitate model evaluation.
@@ -33,39 +66,48 @@ The **Intel Image Dataset** consists of images categorized into six natural and 
 
 ---
 
-<!-- ## **🚀 Features** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=FEATURES)](https://git.io/typing-svg)
+<!-- Getting Started -->
+[![GETTING-STARTED](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=GETTING+STARTED)](https://git.io/typing-svg)
 
-- **Deep Learning Model:** CNN-based classifier implemented using TensorFlow/Keras.
-- **Transfer Learning:** Uses VGG19 as the pre-trained model for improved accuracy.
-- **Performance Metrics:** Evaluates accuracy, precision, recall, and confusion matrix.
-- **Modular Code Structure:** Well-organized for easy modification and experimentation.
+### **🔧 Prerequisites**
+> [!IMPORTANT]
+> - Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
+> - Also download the mentioned dataset before running any of the notebooks, and change the paths in the notebooks whereever necessary.
 
----
+### **⚙️ Installation**
+Once Anaconda is installed, open the Anaconda Prompt and run the following commands:
 
-<!-- ## **📂 Project Structure** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
-
-```tree
-Intel-CNN-Image-Classification/
-├── Dataset/                                             # Intel Image Dataset
-│   └── seg_train/                                       # Training Images
-│   └── seg_test/                                        # Testing Images
-│   └── seg_pred/                                        # Unlabeled Images                                    
-├── Models/                                              # Saved Models (.h5 files)
-│   └── Model With Transfer Learning.h5
-│   └── Model Without Transfer Learning.h5
-├── Notebooks/                                           # Jupyter Notebooks for training & evaluation
-│   └── Classification With Transfer Learning.ipynb
-│   └── Classification Without Transfer Learning.ipynb
-├── requirements.txt                                     # Required Dependencies
-├── README.md                                            # Project Documentation
-└── .gitignore                                           # Git Ignore File
+1. Clone the repository:
+```bash
+git clone https://github.com/NSANTRA/Intel-CNN-Image-Classification
 ```
 
+2. Navigate to the project directory:
+```bash
+cd Intel-CNN-Image-Classification
+```
+
+3. Create a new Conda environment:
+```bash
+conda env create -f "Tensorflow.yml"
+```
+
+4. Activate the environment:
+```bash
+conda activate Tensorflow
+```
+
+### **▶️ Usage**
+
+After activating the environment:
+- Open Jupyter Notebook or JupyterLab within the environment.
+- Navigate to the project folder and open the desired notebook.
+- Ensure dataset paths are correctly configured in each notebook.
+- Run the cells sequentially to execute the project.
+
 ---
 
-<!-- ## **⚙️ Model Architectures** -->
+<!-- Model Architectures -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=MODEL+ARCHITECTURES)](https://git.io/typing-svg)
 
 ### **1️⃣ CNN Model with Transfer Learning (VGG19)**  
@@ -113,7 +155,7 @@ Intel-CNN-Image-Classification/
 
 ---
 
-<!-- ## **📊 Results & Comparison** -->
+<!-- Results & Comparison -->
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=RESULTS+%26+COMPARISON)](https://git.io/typing-svg)
 
 ### **Classification Report for CNN With Transfer Learning**
@@ -195,7 +237,7 @@ Intel-CNN-Image-Classification/
 
 #### **Summary**
 **Key Observations and Comparison**
-|Metric                   |Transfer Learning CNN                               |CNN From Sratch                                     |
+|Metric                   |Transfer Learning CNN                               |CNN From Scratch                                     |
 |-------------------------|----------------------------------------------------|----------------------------------------------------|
 |**Overall Accuracy**     |Higher (Fewer misclassifications)                   |Lower (More misclassifications)                     |
 |**Buildings Accuracy**   |391 correctly classified, 43 misclassified as Street|351 correctly classified, 67 misclassified as Street|
@@ -221,54 +263,48 @@ Intel-CNN-Image-Classification/
 
 ---
 
-<!-- ## **Technologies and Tools Used** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=TECHNOLOGIES+%26+TOOLS)](https://git.io/typing-svg)
-- **IDE:** Jupyter Lab
-- **Programming Language:** Python
-- **Deep Learning Framework:** TensorFlow/Keras
-- **Data Processing:** OpenCV, NumPy, Pandas
-- **Visualization:** Matplotlib, Seaborn
-- **Hardware Acceleration:** GPU (CUDA-enabled for TensorFlow)
+<!-- Project Structure -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=PROJECT+STRUCTURE)](https://git.io/typing-svg)
 
----
-
-<!-- ## **🚀 Installation & Usage** -->
-[![INSTALLATION](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=INSTALLATION+%26+USAGE)](https://git.io/typing-svg)
-
-### **🔧 Requirements**
-> [!IMPORTANT]
-> - Ensure Anaconda is installed, if not you can download from [Anaconda](https://www.anaconda.com/download/success) and also Git (if not available, download from [Github](https://git-scm.com/downloads)).
-> - Also download the mentioned dataset before running any of the notebooks, and change the paths in the notebooks whereever necessary.
-
-Once Anaconda is installed, use the **Anaconda Prompt** to run the following commands:
-1. To clone this repository, run the following command:
-```bash
-git clone https://github.com/NSANTRA/Intel-CNN-Image-Classification
-```
-
-2. Move to the project repository:
-```bash
-cd Intel-CNN-Image-Classification
-```
-
-3. Create a conda environment:
-```bash
-conda env create -f "Tensorflow.yml"
-```
-
-4. Activate the newly created environment:
-```bash
-conda activate Tensorflow
+```tree
+Intel-CNN-Image-Classification/
+├── Dataset/                                             # Intel Image Dataset
+│   └── seg_train/                                       # Training Images
+│   └── seg_test/                                        # Testing Images
+│   └── seg_pred/                                        # Unlabeled Images                                    
+├── Models/                                              # Saved Models (.h5 files)
+│   └── Model With Transfer Learning.h5
+│   └── Model Without Transfer Learning.h5
+├── Notebooks/                                           # Jupyter Notebooks for training & evaluation
+│   └── Classification With Transfer Learning.ipynb
+│   └── Classification Without Transfer Learning.ipynb
+├── requirements.txt                                     # Required Dependencies
+├── README.md                                            # Project Documentation
+└── .gitignore                                           # Git Ignore File
 ```
 
 ---
 
-<!-- ## **Conclusion and Future Scope** -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=CONCLUSION+%26+FUTURE+SCOPE)](https://git.io/typing-svg)
+<!-- License -->
+[![LICENSE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=400&lines=LICENSE)](https://git.io/typing-svg)
+MIT License
 
-This project demonstrates the effectiveness of CNNs in classifying natural and urban scenes. Transfer learning with VGG19 significantly improves accuracy and generalization compared to training a model from scratch. Future enhancements could include:
+Copyright (c) 2025 Neelotpal Santra
 
-1. Experimenting with other pre-trained models (ResNet, EfficientNet, etc.).
-2. Implementing data augmentation techniques to improve robustness.
-3. Optimizing hyperparameters using automated search techniques.
-4. Deploying the model as a web-based or mobile application.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
