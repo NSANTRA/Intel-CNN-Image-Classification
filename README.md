@@ -1,12 +1,16 @@
 <a id="top"></a>
 [![TITLE](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=INTEL+CNN+IMAGE+CLASSIFICATION)](https://git.io/typing-svg)
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+
+![Jupyter Lab](https://img.shields.io/badge/IDE-Jupyter%20Lab-orange?logo=jupyter)
+![Python](https://img.shields.io/badge/Python-3.10-yellow?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
-![NumPy](https://img.shields.io/badge/NumPy-1.26-blue?logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-lightblue?logo=plotly)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![OpenCV](https://img.shields.io/badge/OpenCV-Data%20Processing-red?logo=opencv)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-lightblue?logo=numpy)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-darkblue?logo=seaborn)
+![GPU](https://img.shields.io/badge/GPU-CUDA-brightgreen?logo=nvidia)
+![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)
+
 
 ---
 
@@ -52,6 +56,7 @@ Two different approaches are implemented to assess performance and effectiveness
 <div align="right">
   <a href="#top"><kbd> <br> 🡅 Back to Top <br> </kbd></a>
 </div>
+
 ---
 
 <!-- Features -->
