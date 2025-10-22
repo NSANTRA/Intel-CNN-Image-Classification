@@ -20,20 +20,20 @@
 
 [![TABLE OF CONTENTS](https://readme-typing-svg.herokuapp.com?font=JetBrainsMono+Nerd+Font&letterSpacing=0.3rem&pause=1000&width=600&lines=TABLE+OF+CONTENTS)](https://git.io/typing-svg)
 
-- 🧠 <a href="#project-overview">Project Overview</a>
-- ✨ <a href="#features">Features</a>
-- 🧰 <a href="#tech-stack">Technologies & Tools</a>
-- 🗂 <a href="#dataset">Dataset</a>
-- 🚀 <a href="#getting-started">Getting Started</a>
-    - 🔧 Prerequisites
-    - ⚙️ Installation
-    - ▶️ Usage
-- 🏗 <a href="#model-architectures">Model Architectures</a>
-- 📊 <a href="#results">Results & Comparison</a>
-    - 🔹 Key Observation
-    - 📈 Graphs of Training Loss & Accuracy
-- 📁 <a href="#project-structure">Project Structure</a>
-- 📜 <a href="#license">License</a>
+- <a href="#project-overview">PROJECT OVERVIEW</a>
+- <a href="#features">FEATURES</a>
+- <a href="#tech-stack">TECHNOLOGIES & TOOLS</a>
+- <a href="#dataset">DATASET</a>
+- <a href="#getting-started">GETTING STARTED</a>
+    - Prerequisites
+    - Installation
+    - Usage
+- <a href="#model-architectures">MODEL ARCHITECTURES</a>
+- <a href="#results">RESULTS & COMPARISON</a>
+    - Key Observation
+    - Graphs of Training Loss & Accuracy
+- <a href="#project-structure">PROJECT STRUCTURE</a>
+- <a href="#license">LICENSE</a>
 
 ---
 
